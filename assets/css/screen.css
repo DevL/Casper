@@ -1896,3 +1896,15 @@ p > img, figure > img {
     box-sizing: border-box;
     border: #fff 0.5em solid;
 }
+
+.site-wrapper {
+    background: rgb(32, 32, 32);
+}
+
+.content {
+    background: rgb(64, 0, 48);
+}
+
+article {
+    background: rgb(248, 248, 248);
+}
