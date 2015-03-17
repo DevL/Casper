@@ -1889,7 +1889,7 @@ body:not(.post-template) .post-title {
    13. Custom
    ========================================================================== */
 
-p > img {
+p > img, figure > img {
     padding: 0!important;
     border-radius: 0.3em;
     box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
