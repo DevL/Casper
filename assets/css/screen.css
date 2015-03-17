@@ -17,6 +17,7 @@
     10. Media Queries (Tablet)
     11. Media Queries (Mobile)
     12. Animations
+    13. Custom
 
 */
 
@@ -1884,8 +1885,14 @@ body:not(.post-template) .post-title {
     }
 }
 
-
 /* ==========================================================================
-   End of file. Animations should be the last thing here. Do not add stuff
-   below this point, or it will probably fuck everything up.
+   13. Custom
    ========================================================================== */
+
+p > img {
+    padding: 0!important;
+    border-radius: 0.3em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
+    box-sizing: border-box;
+    border: #fff 0.5em solid;
+}
