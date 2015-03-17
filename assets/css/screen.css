@@ -1898,7 +1898,7 @@ p > img, figure > img {
 }
 
 .site-wrapper {
-    background: rgb(32, 32, 32);
+    background: rgb(64, 0, 48);
 }
 
 .content {
@@ -1908,4 +1908,8 @@ p > img, figure > img {
 article {
     background: rgb(248, 248, 248);
     padding: 1em;
+}
+
+section.author {
+    padding-bottom: 1em;
 }
