@@ -1907,4 +1907,5 @@ p > img, figure > img {
 
 article {
     background: rgb(248, 248, 248);
+    padding: 1em;
 }
