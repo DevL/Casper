@@ -1898,10 +1898,10 @@ p > img, figure > img {
 }
 
 .content, .site-wrapper {
-    background: -webkit-linear-gradient(left, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
-    background: -o-linear-gradient(left, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
-    background: -moz-linear-gradient(left, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
-    background: linear-gradient(to right, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
+    background: -webkit-linear-gradient(left, rgb(64, 0, 48), rgb(128, 0, 112), rgb(64, 0, 48));
+    background: -o-linear-gradient(left, rgb(64, 0, 48), rgb(128, 0, 112), rgb(64, 0, 48));
+    background: -moz-linear-gradient(left, rgb(64, 0, 48), rgb(128, 0, 112), rgb(64, 0, 48));
+    background: linear-gradient(to right, rgb(64, 0, 48), rgb(128, 0, 112), rgb(64, 0, 48));
 }
 
 article {
@@ -1911,4 +1911,8 @@ article {
 
 section.author {
     padding-bottom: 1em;
+}
+
+nav.pagination {
+    color: rgb(255, 255, 255);
 }
