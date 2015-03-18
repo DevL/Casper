@@ -1897,12 +1897,11 @@ p > img, figure > img {
     border: #fff 0.5em solid;
 }
 
-.site-wrapper {
-    background: rgb(64, 0, 48);
-}
-
-.content {
-    background: rgb(64, 0, 48);
+.content, .site-wrapper {
+    background: -webkit-linear-gradient(left, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
+    background: -o-linear-gradient(left, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
+    background: -moz-linear-gradient(left, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
+    background: linear-gradient(to right, rgb(64,0,48), rgb(128,0,112), rgb(64,0,48));
 }
 
 article {
